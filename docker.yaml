@@ -2,7 +2,7 @@
 - name: Launch Docker Container
   hosts: prod
   vars:
-    docker_image: "aditya220404/devops_project"
+    docker_image: "aditya220404/devops_project_new"
     docker_tag: "latest"
     container_name: "con1"
     host_port: "80"
