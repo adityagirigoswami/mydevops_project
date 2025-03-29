@@ -1,6 +1,6 @@
 docker build -t $JOB_NAME:$BUILD_ID .
 
-docker tag $JOB_NAME:$BUILD_ID aditya220404/$JOB_NAME:$BUILD_ID
+docker tag $JOB_NAME:$BUILD_ID aditya2204/$JOB_NAME:$BUILD_ID
 
 docker tag $JOB_NAME:$BUILD_ID aditya220404/$JOB_NAME:latest
 
